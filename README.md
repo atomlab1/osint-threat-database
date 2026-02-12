@@ -5,7 +5,6 @@ This repository contains detailed open-source intelligence (OSINT) investigation
 
 **Repository Features:**
 - Professionally structured threat intelligence reports.
-- Dual-language support: Traditional Chinese (CN) | English (ENG).
 - Continuously updated database of OSINT cases.
 - Indicators of Compromise (IOCs) for threat detection.
 - Analysis of attack methods, vulnerabilities, and infrastructure.
