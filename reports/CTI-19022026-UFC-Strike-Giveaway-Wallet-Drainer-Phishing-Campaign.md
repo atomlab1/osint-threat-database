@@ -3,7 +3,7 @@
 **Methodology**: Traffic interception using Burp Suite with Chrome browser, tested with a brand-new empty wallet (no funds) for safety  
 **Data Sources**: Personally captured HTTP requests/responses, domain WHOIS and SecurityTrails subdomain history
 
-<img width="1017" height="889" alt="Screenshot 2026-02-19 162146" src="https://github.com/user-attachments/assets/51fc055f-d3ff-4a93-80ba-9259682bef5f" />
+<img width="1350" height="1080" alt="Updox is a healthcare communication and practice management platform that includes a secure email service designed specifically for medical practices  Its mail service, often referred to as Updox " src="https://github.com/user-attachments/assets/0f84438a-7d27-4453-9ebf-4fe49eacda2d" />
 
 ## Part 1: Raw Findings by the Researcher
 
