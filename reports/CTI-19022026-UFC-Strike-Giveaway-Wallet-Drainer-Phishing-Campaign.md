@@ -3,6 +3,8 @@
 **Methodology**: Traffic interception using Burp Suite with Chrome browser, tested with a brand-new empty wallet (no funds) for safety  
 **Data Sources**: Personally captured HTTP requests/responses, domain WHOIS and SecurityTrails subdomain history
 
+<img width="1017" height="889" alt="Screenshot 2026-02-19 162146" src="https://github.com/user-attachments/assets/51fc055f-d3ff-4a93-80ba-9259682bef5f" />
+
 ## Part 1: Raw Findings by the Researcher
 
 ### 1. Attack Entry Point and Domain Information
@@ -18,6 +20,8 @@
 
 - **ufcstrike.net root page**:
   - Visiting https://ufcstrike.net shows a default Plesk holding page (no real content)
+
+ <img width="1349" height="1027" alt="Screenshot 2026-02-19 162323" src="https://github.com/user-attachments/assets/7636788e-b66b-426e-b288-ee3fdd2905b1" />
 
 - **SecurityTrails subdomain history**:
   - giveaway.ufcstrike.net → Cloudflare, Inc.
@@ -46,6 +50,8 @@
     - 1,222,601 bytes script
     - 96,128 bytes script
     - 76,099 bytes script
+
+<img width="833" height="290" alt="Screenshot 2026-02-19 170857" src="https://github.com/user-attachments/assets/a30c27d1-e536-40d8-bc5e-1ab01e01bae5" />
 
 - **Encryption signature**:
   - POST body starts with `U2FsdGVkX1+` (standard AES-encrypted format – CryptoJS / OpenSSL)
